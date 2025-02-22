@@ -7,11 +7,11 @@ const storeData = {
   links: {
       whatsapp: "https://wa.me/example",
       telegram: "https://t.me/example",
-      facebook: "https://facebook.com/example",
+      facebook: "https://www.facebook.com",
       facebookGroup: "https://facebook.com/groups/example",
       youtube: "https://youtube.com/example",
-      tiktok: "https://tiktok.com/@example",
-      instagram: "https://instagram.com/example",
+      tikTok: "https://www.tiktok.com",
+      instagram: "https://www.instagram.com",
   },
 };
 
@@ -26,9 +26,22 @@ document.getElementById("telegram").href = storeData.links.telegram;
 document.getElementById("facebook").href = storeData.links.facebook;
 document.getElementById("facebook-group").href = storeData.links.facebookGroup;
 document.getElementById("youtube").href = storeData.links.youtube;
-document.getElementById("tiktok").href = storeData.links.tiktok;
+document.getElementById("tikTok").href = storeData.links.tikTok;
 document.getElementById("instagram").href = storeData.links.instagram;
 
+// Dynamically populate the template
+document.getElementById("store-name").innerText = storeData.name;
+document.getElementById("store-tagline").innerText = storeData.tagline;
+document.getElementById("store-contact").innerText = storeData.contact;
+document.getElementById("store-logo").src = storeData.logo;
+
+document.getElementById("whatsapp").href = storeData.links.whatsapp;
+document.getElementById("telegram").href = storeData.links.telegram;
+document.getElementById("facebook").href = storeData.links.facebook;
+document.getElementById("facebook-group").href = storeData.links.facebookGroup;
+document.getElementById("youtube").href = storeData.links.youtube;
+document.getElementById("tikTok").href = storeData.links.tikTok;
+document.getElementById("instagram").href = storeData.links.instagram;
 
 document.addEventListener("DOMContentLoaded", function () {
   // Show the loading page when loading starts
