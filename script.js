@@ -29,20 +29,6 @@ document.getElementById("youtube").href = storeData.links.youtube;
 document.getElementById("tikTok").href = storeData.links.tikTok;
 document.getElementById("instagram").href = storeData.links.instagram;
 
-// Dynamically populate the template
-document.getElementById("store-name").innerText = storeData.name;
-document.getElementById("store-tagline").innerText = storeData.tagline;
-document.getElementById("store-contact").innerText = storeData.contact;
-document.getElementById("store-logo").src = storeData.logo;
-
-document.getElementById("whatsapp").href = storeData.links.whatsapp;
-document.getElementById("telegram").href = storeData.links.telegram;
-document.getElementById("facebook").href = storeData.links.facebook;
-document.getElementById("facebook-group").href = storeData.links.facebookGroup;
-document.getElementById("youtube").href = storeData.links.youtube;
-document.getElementById("tikTok").href = storeData.links.tikTok;
-document.getElementById("instagram").href = storeData.links.instagram;
-
 document.addEventListener("DOMContentLoaded", function () {
   // Show the loading page when loading starts
   const loader = document.querySelector(".my-loader");
