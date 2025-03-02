@@ -5,11 +5,11 @@ const storeData = {
   contact: "01154031550 - 01154031550",
   logo: "phone.png", // Replace with your logo image path
   links: {
-      whatsapp: "https://wa.me/example",
-      telegram: "https://t.me/example",
+      whatsapp: "https://www.whatsapp.com",
+      telegram: "https://web.telegram.org/a/",
       facebook: "https://www.facebook.com",
-      facebookGroup: "https://facebook.com/groups/example",
-      youtube: "https://youtube.com/example",
+      facebookGroup: "https://facebook.com",
+      youtube: "https://youtube.com",
       tikTok: "https://www.tiktok.com",
       instagram: "https://www.instagram.com",
   },
